@@ -1,3 +1,8 @@
 async function obtenerDatos(){
-    //<- await fetch(/* URL */)
+    // Response
+    const respuesta = await fetch('./datos/productos.json')
+    const productos = await respuesta.json() // <-- javascript
+    productos.forEach(()=>{
+        
+    })
 }
