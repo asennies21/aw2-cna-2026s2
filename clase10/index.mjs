@@ -5,10 +5,11 @@ const PUERTO = 3000
 const app = express()
 app.listen(PUERTO)
 
-
 // MIDDLEWARES
 // Parseamos datos del cliente en formato JSON
 app.use(express.json())
+// Parseamos
+
 app.use(express.urlencoded({extended: true}))
 
 // El middleware express.static() sirve una web estática (recursos)
